@@ -1,7 +1,7 @@
 package Arrays;
 
 public class check_arr_sorted {
-    public static Boolean isSorted() {
+    public static boolean isSorted() {
     int arr[] = {1, 2, 3, 4, 5};
 
         for (int i = 0; i < arr.length - 1; i++)
@@ -12,4 +12,7 @@ public class check_arr_sorted {
         }
         return true;
 }
+    public static void main(String[] args) {
+        System.out.println(isSorted());
+    }
 }

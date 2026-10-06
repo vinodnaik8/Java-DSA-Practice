@@ -11,6 +11,8 @@ public class two_sum_index {
             int com=tar-arr[i];
             if(seen.containsKey(com)){
                 System.out.println(seen.get(com)+","+i);
+                //to print values instead of index, use this line instead of above line
+                //System.out.println(com+","+arr[i]);
             }
             seen.put(arr[i],i);
             }
